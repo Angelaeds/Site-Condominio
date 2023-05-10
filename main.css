@@ -1,0 +1,165 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content:left;
+    background-color:  #294cc8;
+}
+
+h1 {
+    margin: auto;
+    font-family:Verdana;
+    color: #FFFFFF;
+}
+
+#lista-inicial a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: small;   
+}
+
+#lista-inicial li {
+    list-style: none;
+    display: inline;
+    padding: 0 0 0 105px;
+}
+
+#lista-inicial .container {
+    background-color: rgba(255, 255, 0, 0.274);
+    padding: 1px 0;
+}
+
+#sobre img {
+    width:100px;
+}
+
+#sobre article {
+    display: flex;
+}
+
+#sobre p{
+    max-width: 100%;
+    margin-top: 0;
+    line-height: 30px;
+}
+
+#localizacao p {
+    margin-bottom: 50px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 23%;
+    position: relative;
+}
+
+.map-responsive iframe {
+    width: 100%;
+    height: 100%;
+    position:absolute;
+}
+
+#localizacao .container {
+    display:inline-flex;
+    align-items: center;
+}
+
+#localizacao .container a {
+    margin-left: 1030px;
+}
+
+#infraestrutura .rotated a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: small; 
+}
+
+#infraestrutura .rotated li {
+    transform: rotate(-20deg);
+    display: inline-flex;
+}
+
+#infraestrutura .rotated  {
+    background-color: rgb(187, 187, 136);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#imagens img {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    object-fit:cover;
+}
+
+#imagens {
+    padding: 0 15px 0 15px;
+}
+
+p {
+    line-height: 30px;
+    margin-bottom: 50px;
+    padding: 0 15px ;
+}
+
+#localizacao p{
+    margin-bottom: 20px;
+}
+
+#portaria img{
+    width: 1200px;
+    height: 600px;
+    padding: 0 15px 0 15px;
+}
+
+h2 {
+    padding: 0 15px;
+}
+
+#plantas img {
+    width: 600px;
+}
+
+#plantas .container {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+#fale-conosco {
+    width: 400px;
+    margin-left: 15px;
+}
+
+form input,
+form textarea,
+form select {
+    display: block;
+    width: 100%;
+    margin-bottom: 3px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px 0;
+}
+
+form button {
+    color:#000000;   
+    display: inline;
+    width: 100px;
+    padding: 5px 0;
+    margin: 0;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+    width: 100%;
+}
+
+
